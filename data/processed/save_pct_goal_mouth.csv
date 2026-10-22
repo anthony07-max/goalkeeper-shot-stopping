@@ -1,0 +1,10 @@
+height,side,shots,goals,mean_xg,otxg,save_pct,expected_save_pct
+High,Centre,558,107,0.105,139.93,80.824,74.923
+High,Left third,682,256,0.097,162.217,62.463,76.215
+High,Right third,661,236,0.103,159.743,64.297,75.833
+Low,Centre,1701,366,0.167,529.308,78.483,68.883
+Low,Left third,2707,860,0.155,832.343,68.231,69.252
+Low,Right third,2726,875,0.149,815.298,67.902,70.092
+Middle,Centre,960,158,0.133,270.002,83.542,71.875
+Middle,Left third,1155,346,0.128,324.869,70.043,71.873
+Middle,Right third,1244,365,0.118,334.915,70.659,73.078

@@ -1,0 +1,253 @@
+{
+  "on_target_shots": 12770,
+  "goals": 3869,
+  "save_pct": 69.7,
+  "raw_xg_on_target": 2020.2,
+  "models": {
+    "raw_statsbomb_xg": {
+      "auc": 0.786,
+      "log_loss": 0.6012,
+      "brier": 0.188,
+      "expected_goals": 2020.2
+    },
+    "otxg": {
+      "auc": 0.785,
+      "log_loss": 0.4958,
+      "brier": 0.1623,
+      "expected_goals": 3868.7
+    },
+    "psxg": {
+      "auc": 0.816,
+      "log_loss": 0.4669,
+      "brier": 0.1519,
+      "expected_goals": 3867.4
+    }
+  },
+  "keepers": 181,
+  "matches": 1517,
+  "save_pct_by_league": {
+    "La Liga": 68.9,
+    "Ligue 1": 70.5,
+    "Premier League": 69.3,
+    "Serie A": 70.1
+  },
+  "save_pct_by_zone": {
+    "Central box": 57.0,
+    "Outside box": 86.9,
+    "Six-yard box": 37.6,
+    "Wide box": 82.4
+  },
+  "save_pct_by_type": {
+    "Corner": 57.1,
+    "Free Kick": 78.6,
+    "Open Play": 70.9,
+    "Penalty": 20.2
+  },
+  "save_pct_by_height": {
+    "High": 66.7,
+    "Low": 69.1,
+    "Middle": 72.8
+  },
+  "save_pct_header_vs_foot": {
+    "Head": 66.4,
+    "Left Foot": 71.4,
+    "Other": 32.6,
+    "Right Foot": 69.9
+  },
+  "ranked_keepers": 88,
+  "min_on_target_for_ranking": 60,
+  "tau_per100": 2.64,
+  "top5": [
+    [
+      "Samir Handanovi\u010d",
+      "Inter Milan",
+      146,
+      33,
+      77.4,
+      43.79,
+      10.79,
+      2.83,
+      18.75,
+      2.87,
+      -9.59,
+      9.27
+    ],
+    [
+      "Keylor Navas",
+      "Real Madrid",
+      122,
+      28,
+      77.05,
+      37.98,
+      9.98,
+      2.57,
+      17.39,
+      2.76,
+      -8.3,
+      9.44
+    ],
+    [
+      "Claudio Bravo",
+      "Barcelona",
+      104,
+      20,
+      80.77,
+      29.51,
+      9.51,
+      2.63,
+      16.38,
+      2.75,
+      -6.37,
+      9.39
+    ],
+    [
+      "Javi Varas",
+      "Las Palmas",
+      138,
+      39,
+      71.74,
+      47.93,
+      8.93,
+      0.89,
+      16.96,
+      2.31,
+      -12.92,
+      8.41
+    ],
+    [
+      "Emiliano Viviano",
+      "Sampdoria",
+      194,
+      54,
+      72.16,
+      62.03,
+      8.03,
+      -1.21,
+      17.27,
+      1.88,
+      -19.84,
+      9.21
+    ]
+  ],
+  "bottom5": [
+    [
+      "Orestis Karnezis",
+      "Udinese",
+      170,
+      59,
+      65.29,
+      51.25,
+      -7.75,
+      -16.38,
+      0.88,
+      -1.92,
+      -31.66,
+      -5.76
+    ],
+    [
+      "Brad Guzan",
+      "Aston Villa",
+      144,
+      55,
+      61.81,
+      46.32,
+      -8.68,
+      -16.94,
+      -0.41,
+      -2.19,
+      -31.39,
+      -7.64
+    ],
+    [
+      "Simon Mignolet",
+      "Liverpool",
+      112,
+      41,
+      63.39,
+      32.27,
+      -8.73,
+      -15.86,
+      -1.6,
+      -2.47,
+      -25.6,
+      -8.2
+    ],
+    [
+      "Daniele Padelli",
+      "Torino",
+      137,
+      48,
+      64.96,
+      38.82,
+      -9.18,
+      -16.78,
+      -1.58,
+      -2.54,
+      -27.75,
+      -9.96
+    ],
+    [
+      "Artur Boruc",
+      "AFC Bournemouth",
+      125,
+      51,
+      59.2,
+      39.54,
+      -11.46,
+      -19.08,
+      -3.84,
+      -3.08,
+      -30.34,
+      -10.65
+    ]
+  ],
+  "significant_at_90pct": 10,
+  "spearman_otxg_vs_psxg_gp": 0.971,
+  "spearman_otxg_vs_raw_gp": 0.973,
+  "raw_xg_gp_all_negative_share": 100.0,
+  "split_half": {
+    "keepers": 84,
+    "r_goals_prevented_per_shot": 0.144,
+    "p": 0.19,
+    "r_save_pct": 0.286
+  },
+  "distribution": {
+    "keepers_15plus_matches": 85,
+    "completion_pct_range": [
+      39.1,
+      84.6
+    ],
+    "most_accurate": [
+      "Kevin Trapp",
+      "Paris Saint-Germain",
+      84.6,
+      29.5
+    ],
+    "least_accurate": [
+      "Kasper Schmeichel",
+      "Leicester City",
+      39.1,
+      86.6
+    ],
+    "rho_long_share_vs_completion": -0.927
+  },
+  "distribution_by_league": {
+    "La Liga": {
+      "completion": 59.3,
+      "long_share": 63.8
+    },
+    "Ligue 1": {
+      "completion": 60.0,
+      "long_share": 62.3
+    },
+    "Premier League": {
+      "completion": 56.5,
+      "long_share": 67.7
+    },
+    "Serie A": {
+      "completion": 64.7,
+      "long_share": 55.6
+    }
+  },
+  "rho_distribution_vs_shot_stopping": 0.141
+}
